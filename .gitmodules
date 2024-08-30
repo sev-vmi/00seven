@@ -1,0 +1,3 @@
+[submodule "libvmi"]
+	path = libvmi
+	url = https://github.com/sev-vmi/libvmi

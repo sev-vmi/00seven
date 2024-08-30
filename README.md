@@ -8,3 +8,16 @@ We are currently preparing the publication of the research prorotype, including 
 
 The client and host changes will soon be released with open source licenses.
 Parts of the in-VM agent must be published under a restrictive license, causing a delay in the publication process.
+
+
+## Set up the LibVMI Client with 00SEVen-TLS backend
+```
+# initial setup and build
+./setup-client.sh
+
+# rebuilding
+cd libvmi/build/
+make clean
+make
+```
+
